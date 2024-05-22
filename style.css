@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to left,#A9D037, #70C5A4);
+}
+h1{
+    margin-bottom: 30px;
+}
+.Main-Div{
+    width:350px;
+    height:300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#Button-div{
+    margin-bottom: 30px;
+}
+#Button-1{
+    border: none;
+    border-radius: 50px;
+    font-size:15px;
+    padding: 10px 30px;
+    background-color: #70C5A4;
+    margin-right: 20px;
+    color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.69);
+    cursor: pointer;
+}
+#Button-2{
+    border: none;
+    border-radius: 50px;
+    font-size:15px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #A9D037;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.69);
+    cursor: pointer;
+}
+h2{
+    font-size:15px;
+    text-transform: lowercase;
+    font-family:'Times New Roman', Times, serif;
+}
+#Color-Code-Box{
+    text-align: center;
+    width: 320px;
+    height:80px;
+    padding:0px 10px ;
+    background-color: rgba(0, 0, 0, 0.631);
+    color: white;
+    border-radius: 10px;
+    margin-top:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: copy;
+}
